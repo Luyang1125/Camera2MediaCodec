@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements TextureView.Surfa
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i(TAG, "onCreate");
+        Log.i(TAG, "onCreate1");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         mThreadHandler = new HandlerThread("CAMERA2");
